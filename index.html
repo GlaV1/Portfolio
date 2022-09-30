@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolyo</title>
+	<!-- CSS DOSYASI -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+     <!-- CSS DOSYASI -->
+
+	<!-- YAZI FONTLARI -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- YAZI FONTLARI -->
+</head>
+<body>
+	
+<!-- ÜST TARAF -->
+	<div class="hero">
+		<nav>
+			<h2 class="logo">Portfo<span>lyo</span></h2>
+			<ul>
+				<li><a href="index.html">Anasayfa</a></li>
+				<li><a type="button" onclick="hakimda()">Hakkımda</a></li>
+				<li><a href="#">Servis</a></li>
+				<li><a type="button" onclick="beceri()">Beceriler</a></li>
+				<li><a type="button" onclick="banaulas()">Bana Ulaşın</a></li>
+
+			</ul>
+			
+		</nav>
+		<div class="hamburger-menu">
+			<input id="menu__toggle" type="checkbox" />
+			<label class="menu__btn" for="menu__toggle">
+			  <span></span>
+			</label>
+		
+			<ul class="menu__box">
+			  <li><a class="menu__item" href="SEKOFLİX.html">Anasayfa</a></li>
+					<li><a class="menu__item" href="https://github.com/GlaV1">Github</a></li>
+					<li><a class="menu__item" href="https://www.linkedin.com/in/serhat-ay-054031241/">Lİnkedin</a></li>
+					<li><a class="menu__item" href="https://www.instagram.com/serhat.ay.58958/">Instagram</a></li>
+			</ul>
+		  </div>
+<!-- ÜST TARAF BİTİŞİ -->
+
+<!-- ORTA VE MAİL GİRME KISMI -->
+		<div class="content">
+			
+			<h1>Serhat <span>Ay</span></h1>
+			<h3>Yazılım Mühendisi</h3>
+			<div class="newslatter">
+				<form>
+					<input type="email" name="email" id="mail" placeholder="">
+					<input type="submit" name="submit" value="ARA">
+				</form>
+			</div>
+		</div>
+	</div>
+<!-- ORTA VEMAİL GİRME KISMI BİTİŞ -->
+	
+<!-- HAKKIMDA KISMI -->
+	<section class="about">
+		<div class="main">
+			<img src="img/1.jfif">
+			<div class="about-text">
+				<h2>Hakkımda</h2>
+				<h5>Yazılım <span>& Tasarım</span></h5>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt veritatis consequuntur pariatur aliquam, molestias quaerat maxime. Explicabo, veniam ipsam, debitis est blanditiis, voluptate libero earum animi consequuntur provident harum officia.</p>
+				<button type="button" onclick="banaulas()">Bana Ulaşın</button>
+			</div>
+		</div>
+	</section>
+<!-- HAKKIMDA KISMI BİTİŞ -->
+	
+<!-- DİĞER BECERİLER KISMI -->
+	<div class="service">
+		<div class="title">
+			<h2>Diğer Beceriler</h2>
+		</div>
+
+		<div class="box">
+			<div class="card">
+				<i class="fas fa-bars"></i>
+				<h5>Web Geliştirme</h5>
+				<div class="pra">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. hic fugit accusantium deserunt velit ipsum atque.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Devamı</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="fas fa-desktop"></i>
+				<h5>Masaüstü Uylamaları</h5>
+				<div class="pra">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. hic fugit accusantium deserunt velit ipsum atque..</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Devamı</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="fa fa-database"></i>
+				<h5>Veri Tabanı</h5>
+				<div class="pra">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. hic fugit accusantium deserunt velit ipsum atque.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Devamı</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- DİĞER BECERİLER KISMI BİTİŞ -->
+
+<!-- HAKKIMDA DAHA ÇOK ŞEYE ULAŞMAK İÇİN BUTONLAR -->
+	<footer>
+		<p>Serhat Ay</p>
+		<p>Hakkımda daha çok bilgiye ulaşmak için aşağıdaki bağlantılara tıklayınız</p>
+		<div class="social">
+			<a href="https://github.com/GlaV1">  <i class="fab fa-github"></i>    </i></a>
+			<a href="https://www.instagram.com/serhat.ay.58958/">  <i class="fab fa-instagram"> </i></a>
+			<a href="https://www.linkedin.com/in/serhat-ay-054031241/">  <i class="fab fa-linkedin"> </i></a>			
+		</div>
+		<!-- HAKKIMDA DAHA ÇOK ŞEYE ULAŞMAK İÇİN BUTONLAR BİTİŞ -->
+
+		<p class="end">CopyRight By Serhat Ay</p>
+	</footer>
+	<script src="main.js"></script>
+</body>
+</html>
